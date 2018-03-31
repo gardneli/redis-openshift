@@ -10,7 +10,7 @@ This example assumes that you have a Openshift cluster installed and running, an
 ### Run 
 
     #make sure you have base image available
-    oc create -f https://raw.githubusercontent.com/gardneli/redis-openshift/master/openshift/is-base.yaml -n openshift
+    oc create -f https://raw.githubusercontent.com/gardneli/redis-openshift/master/openshift/is-base.yaml -n stockviz-backend
     #create all components
     oc create -f https://raw.githubusercontent.com/gardneli/redis-openshift/master/list.yaml
     #start build and watch 
